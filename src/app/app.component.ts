@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
 
+
+//componente base che lancia altri componenti
 @Component({
-  selector: 'my-app',
-  templateUrl: './app.component.html',
+  selector: 'home',
+  templateUrl: './pag_init/home.component.html',
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
